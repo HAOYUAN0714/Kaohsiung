@@ -59,7 +59,7 @@ xhr.onload = function(){
           Ticketinfo = '無收費資訊';
         }
         //innerHTML更新內容
-        str+='<li class="zoneLi"><div class="areaPhoto" style="background-image: url('+Picture1+')"><div class="areaName"> '+Name+'</div><div class="tagZone">'+tagZone+'</div></div>'+'<div class="areaInfo"><img src="/images/icons_clock.png" class="floatImg" ><div class="optimeDiv">'+Opentime+'</div><div class="clearfix"></div></br><img src="/images/icons_pin.png" class="floatImg" ><div class="addDiv">'+Add+'</div><div class="clearfix"></div></br><img src="/images/icons_phone.png" class="floatImg" ><div class="phoneDiv">'+Tel+'</div><div class="clearfix"></div><div class="ticketInfo">'+Ticketinfo+'</div><img src="/images/icons_tag.png"  class="floatTicket" ><div class="clearfix"></div></li>'
+        str+='<li class="zoneLi"><div class="areaPhoto" style="background-image: url('+Picture1+')"><div class="areaName"> '+Name+'</div><div class="tagZone">'+tagZone+'</div></div>'+'<div class="areaInfo"><img src="images/icons_clock.png" class="floatImg" ><div class="optimeDiv">'+Opentime+'</div><div class="clearfix"></div></br><img src="images/icons_pin.png" class="floatImg" ><div class="addDiv">'+Add+'</div><div class="clearfix"></div></br><img src="images/icons_phone.png" class="floatImg" ><div class="phoneDiv">'+Tel+'</div><div class="clearfix"></div><div class="ticketInfo">'+Ticketinfo+'</div><img src="images/icons_tag.png"  class="floatTicket" ><div class="clearfix"></div></li>'
       }
     }
     zoneList.innerHTML = str+'<div class="clearfix"></div>'; //因innerHTML特性 為了避免<ul>被<li>的float擠掉加上clearfix;
