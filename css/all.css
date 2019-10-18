@@ -1,0 +1,220 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*移除箭頭樣式*/
+select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
+
+body {
+	font-family: Microsoft JhengHei;
+}
+/*----------------------------------*/
+/*				layout				*/
+.wrap{
+	width: 1024px;
+	margin:0 auto;
+	background: #f7f7f7;
+}
+.header{
+	margin-bottom: 100px;
+}
+.content{
+	margin-bottom: 100px;
+
+}
+
+.floatL{
+	float:left
+}
+.floatR{
+	float:right;
+}
+.clearfix{
+	clear:both;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+}
+/*----------------------------------*/
+/*				header				*/
+.heroImg{
+	background:url(../images/Hero.png);
+	width: 1024px;height: 380px;
+}
+.headTitle{
+	color:white;font-size:32px;
+	text-align: center;line-height: 160px;
+}
+.zoneSelect{
+	width: 300px;
+	display: block;
+	margin:50px auto 0 auto;
+	padding:5px;
+	border:2px solid white;
+	background:url(../images/icons_down.png) no-repeat 95% rgba(255,255,255,0.6);    /* 背景透明，字不透明 */
+}
+.zoneSelect:hover{
+	cursor: pointer;border:2px solid black;
+}
+.hotZone{
+	background: white;
+	margin:114px auto 50px auto;
+	border:1px solid #eeeeee;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #b9b7b7;
+	width: 768px;
+}
+.hotZone h2{
+	padding:10px;
+}
+
+.hotZone li{
+	width: 52px;
+	float:left;
+	margin:0 40px 10px 40px;
+	padding:10px 30px;
+	color:white;
+}
+.hotZone li:hover{
+	background: gray;cursor: pointer;
+}
+.district1{
+	background:#8a82cc;
+	border-radius:5px;
+}
+.district2{
+	background:#ffa782;
+	border-radius:5px;
+}
+.district3{
+	background:#f5d005;
+	border-radius:5px;
+}
+.district4{
+	background:#559ac8;
+	border-radius:5px;
+}
+/*----------------------------------*/
+/*				分隔線				*/
+.separateLine{
+	height: 48px;
+	background:url(../images/separate_line-1024x64.png) no-repeat;
+	background-position-x: 50%;
+	line-height:48px;background-size:75%;
+}
+/*----------------------------------*/
+/*				content				*/
+
+.content{
+	margin:50px ;
+}
+/*		areaphoto		*/
+.zoneTitle{
+	text-align: center;font-size: 32px;color:#828acc;
+	margin-bottom:20px;
+}
+
+.zoneList li{
+	float: left;
+	position: relative;
+	margin-left:10px;margin-bottom: 30px;
+	background-color: white;
+	box-shadow: 0 0 5px #cccccc;
+}
+.areaPhoto{
+	width: 448px;height: 200px;color:white;
+	background-size: 468px 200px;background-repeat: no-repeat;
+	position: relative;
+	margin-bottom:10px;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	font-weight: bold;
+}
+.areaName{
+	position: absolute;left: 5%;bottom: 10%;
+	font-size:24px;
+}
+.tagZone{
+	position: absolute;right: 5%;bottom: 10%;
+}
+/*		areaInfo		*/
+.areaInfo {
+	width: 448px;
+	height: 160px;
+}
+.areaInfo .floatImg{
+	width: 20px;width: 16px;
+	display: block;
+	float: left;
+	margin-left:10px;
+}
+.areaInfo .optimeDiv,.areaInfo .addDiv{
+	float: left;
+	width: 400px;line-height: 18px;
+	margin-left:10px;
+}
+.phoneDiv{
+	float: left;
+	width: 150px;line-height: 24px;
+	margin-left:10px
+}
+.areaInfo .floatTicket{
+	float: right;margin-right: 10px;
+}
+.areaInfo .ticketInfo{
+	float: right;margin-right: 10px;
+}
+
+/*----------------------------------*/
+/*				footer				*/
+.footer{
+	background:rgb(6, 126, 173);
+	padding:10px 0;
+}
+.footer p{
+	text-align: center;
+	line-height: 32px;
+}
