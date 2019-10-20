@@ -10,5 +10,4 @@
 
 3. 將取出的資料根據選擇的區域呈現在卡片上
 
-4. 使用 e.target.textContent 取得點擊熱門區域的值後改變 select的value 
 ```
